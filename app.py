@@ -155,12 +155,20 @@ h1,h2,h3{font-family:var(--sans);color:var(--text);}
 .card-meta{min-width:0; flex:1;}
 .card-name{font-weight:700; font-size:16px; line-height:1.25;}
 .card-sub{font-family:var(--mono); font-size:11px; color:var(--muted); margin:4px 0 10px; line-height:1.5;}
-.price-strip{display:flex; gap:10px; margin-bottom:10px;}
-.price-cell{flex:1; background:var(--panel-2); border:1px solid var(--line);
-  border-radius:8px; padding:8px 10px; min-width:0;}
-.price-cell .g{font-family:var(--mono); font-size:10px; letter-spacing:.1em; color:var(--faint); display:block;}
-.price-cell .u{font-family:var(--mono); font-weight:700; font-size:14.5px; display:block; margin-top:2px;}
-.price-cell .h{font-family:var(--mono); font-size:11.5px; color:var(--green); display:block; margin-top:1px;}
+.price-pair{display:flex; align-items:stretch; gap:12px; margin:10px 0;}
+.pp-cell{flex:1; min-width:0;}
+.pp-cell .pp-lang{font-family:var(--mono); font-size:10px; letter-spacing:.1em;
+  color:var(--faint); display:block; white-space:nowrap;}
+.pp-cell .u{font-family:var(--mono); font-weight:700; font-size:17px;
+  display:block; white-space:nowrap; margin-top:2px;}
+.pp-cell .h{font-family:var(--mono); font-size:12px; color:var(--green);
+  display:block; white-space:nowrap; margin-top:2px;}
+.pp-cell .na{font-size:12px; color:var(--muted); line-height:1.5; display:block; margin-top:4px;}
+.pp-div{width:1px; background:var(--line); flex-shrink:0;}
+.premium-note{font-family:var(--mono); font-size:12px; color:var(--accent);
+  margin:2px 0 8px; white-space:nowrap;}
+.premium-note.dim{color:var(--faint);}
+.premium-note b{font-weight:700;}
 .ai-badge{background:var(--blue-dim); border:1px solid rgba(90,169,255,.35);
   border-radius:8px; padding:8px 10px; font-size:12.5px; color:#cfe3ff; line-height:1.5;}
 /* ---------- table ---------- */
@@ -182,8 +190,8 @@ table.matrix tbody tr:hover{background:rgba(255,255,255,.02);}
 .badge.en{color:var(--accent); border-color:rgba(255,210,63,.4);}
 .badge.jp{color:var(--blue); border-color:rgba(90,169,255,.4);}
 .grade-tag{font-family:var(--mono); font-size:11.5px; color:var(--muted); white-space:nowrap;}
-.usd{font-family:var(--mono); font-weight:700; font-size:14.5px;}
-.hkd{font-family:var(--mono); font-size:11.5px; color:var(--green); margin-top:2px;}
+.usd{font-family:var(--mono); font-weight:700; font-size:14.5px; white-space:nowrap;}
+.hkd{font-family:var(--mono); font-size:11.5px; color:var(--green); margin-top:2px; white-space:nowrap;}
 a.src{font-family:var(--mono); font-size:12px; color:var(--accent); text-decoration:none; white-space:nowrap;}
 a.src:hover{text-decoration:underline;}
 .trend{display:inline-block; font-family:var(--mono); font-size:11.5px; font-weight:600;
@@ -242,47 +250,93 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # ------------------------------------------------------------ chase list ---
+# Grouped by card topic (Charizard / Pikachu / Umbreon) -- EN vs JP raw price
+# pairs, exactly like the original artifact. PSA 9 / PSA 10 detail lives in
+# the Market Matrix below; chasing_list.json is NOT modified.
 st.markdown('<div class="sec-title">My chase list</div>'
-            '<div class="sec-sub">One card per tile — image, reference pricing and the latest AI read.</div>',
+            '<div class="sec-sub">Grouped by card — EN vs JP raw price pairs, premium note and AI read.</div>',
             unsafe_allow_html=True)
 
+groups, _seen = [], {}
+for c in cards:
+    if c["card_name"] not in _seen:
+        _seen[c["card_name"]] = {"name": c["card_name"], "variants": []}
+        groups.append(_seen[c["card_name"]])
+    _seen[c["card_name"]]["variants"].append(c)
+
+lang_by_id = {c["card_id"]: c["language"] for c in cards}
+
+
+def _pp_cell(label, variant):
+    g = variant["grades"].get("raw", {}) if variant else {}
+    return (f'<div class="pp-cell"><span class="pp-lang">{label}</span>'
+            f'<span class="u">{fmt_usd(g.get("price_usd"))}</span>'
+            f'<span class="h">{fmt_hkd(g.get("price_hkd"))}</span></div>')
+
+
 cols = st.columns(3)
-for i, card in enumerate(cards):
+for i, grp in enumerate(groups):
+    variants = grp["variants"]
+    en = next((v for v in variants if v["language"] == "EN"), None)
+    jp = next((v for v in variants if v["language"] == "JP"), None)
+    thumb_src = (en or variants[0]).get("image_url", "")
+    img = (f'<img class="thumb" src="{thumb_src}" loading="lazy"/>' if thumb_src
+           else '<div class="thumb"></div>')
+
+    if jp:
+        right = _pp_cell("JP RAW", jp)
+        en_p = en["grades"].get("raw", {}).get("price_usd") if en else None
+        jp_p = jp["grades"].get("raw", {}).get("price_usd")
+        if en_p and jp_p:
+            pct = (jp_p - en_p) / en_p * 100
+            premium = (f'<div class="premium-note">JP raw '
+                       f'<b>{"+" if pct >= 0 else ""}{pct:.1f}%</b> vs EN raw</div>')
+        else:
+            premium = '<div class="premium-note dim">Awaiting fresh price data…</div>'
+    else:
+        right = ('<div class="pp-cell"><span class="pp-lang">JP RAW</span>'
+                 '<span class="na">EN exclusive —<br>no JP print</span></div>')
+        premium = ""
+
+    set_lines = "<br>".join(
+        f'{v["language"]} · {v["set_name"]} {v["set_number"]}' for v in variants)
+    analysis = ((en or variants[0]).get("analysis")
+                or (jp.get("analysis") if jp else None))
+    ai = f'<div class="ai-badge">🤖 {analysis}</div>' if analysis else ""
+
     with cols[i % 3]:
-        img = (f'<img class="thumb" src="{card["image_url"]}" loading="lazy"/>'
-               if card.get("image_url") else '<div class="thumb"></div>')
-        cells = []
-        for grade in ("raw", "psa9", "psa10"):
-            g = card["grades"].get(grade, {})
-            cells.append(
-                f'<div class="price-cell"><span class="g">{GRADE_LABEL.get(grade, grade)}</span>'
-                f'<span class="u">{fmt_usd(g.get("price_usd"))}</span>'
-                f'<span class="h">{fmt_hkd(g.get("price_hkd"))}</span></div>')
-        ai = (f'<div class="ai-badge">🤖 {card["analysis"]}</div>'
-              if card.get("analysis") else "")
         st.markdown(f"""
 <div class="card-summary">
   {img}
   <div class="card-meta">
-    <div class="card-name">{card['card_name']}</div>
-    <div class="card-sub">{card['set_name']} · {card['set_number']} · {card['language']} · {card['variant']}</div>
-    <div class="price-strip">{''.join(cells)}</div>
+    <div class="card-name">{grp['name']}</div>
+    <div class="card-sub">{set_lines}</div>
+    <div class="price-pair">
+      {_pp_cell("EN RAW", en)}
+      <div class="pp-div"></div>
+      {right}
+    </div>
+    {premium}
     {ai}
   </div>
 </div>
 """, unsafe_allow_html=True)
         with st.expander("Price History & Trend"):
-            h = history[(history["card_id"] == card["card_id"])
-                        & history["price_usd"].notna()]
+            ids = [v["card_id"] for v in variants]
+            h = history[history["card_id"].isin(ids)
+                        & history["price_usd"].notna()].copy()
             if h.empty:
                 st.write("No history yet — check back after a few runs.")
             else:
-                grades = sorted(h["grade"].unique())
-                sel = st.multiselect("Grades", grades, default=grades,
-                                     key=f"grades-{card['card_id']}")
+                h["series"] = (h["card_id"].map(lang_by_id) + " "
+                               + h["grade"].map(GRADE_LABEL))
+                series = sorted(h["series"].unique())
+                default = [s for s in series if s.endswith("RAW")] or series
+                sel = st.multiselect("Series", series, default=default,
+                                     key=f"trend-{grp['name']}")
                 if sel:
-                    pivot = (h[h["grade"].isin(sel)]
-                             .pivot_table(index="timestamp", columns="grade",
+                    pivot = (h[h["series"].isin(sel)]
+                             .pivot_table(index="timestamp", columns="series",
                                           values="price_usd"))
                     st.line_chart(pivot)
 
