@@ -502,5 +502,365 @@
     "price_usd": 2657.18,
     "price_hkd": 20726.0,
     "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "raw",
+    "price_usd": 310.38,
+    "price_hkd": 2420.96,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa9",
+    "price_usd": 350.0,
+    "price_hkd": 2730.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa10",
+    "price_usd": 1379.5,
+    "price_hkd": 10760.1,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "raw",
+    "price_usd": 330.0,
+    "price_hkd": 2574.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa9",
+    "price_usd": 376.3,
+    "price_hkd": 2935.14,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa10",
+    "price_usd": 525.9,
+    "price_hkd": 4102.02,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "raw",
+    "price_usd": 954.41,
+    "price_hkd": 7444.4,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa9",
+    "price_usd": 863.34,
+    "price_hkd": 6734.05,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa10",
+    "price_usd": 2438.43,
+    "price_hkd": 19019.75,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "raw",
+    "price_usd": 2063.15,
+    "price_hkd": 16092.57,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa9",
+    "price_usd": 2449.5,
+    "price_hkd": 19106.1,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa10",
+    "price_usd": 4300.23,
+    "price_hkd": 33541.79,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "raw",
+    "price_usd": 304.37,
+    "price_hkd": 2374.09,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "psa9",
+    "price_usd": 537.5,
+    "price_hkd": 4192.5,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "psa10",
+    "price_usd": 2159.58,
+    "price_hkd": 16844.72,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "raw",
+    "price_usd": 278.81,
+    "price_hkd": 2174.72,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "psa9",
+    "price_usd": 355.0,
+    "price_hkd": 2769.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "psa10",
+    "price_usd": 1114.89,
+    "price_hkd": 8696.14,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "raw",
+    "price_usd": 121.39,
+    "price_hkd": 946.84,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "psa9",
+    "price_usd": 194.09,
+    "price_hkd": 1513.9,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "psa10",
+    "price_usd": 765.0,
+    "price_hkd": 5967.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "raw",
+    "price_usd": 44.95,
+    "price_hkd": 350.61,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "psa9",
+    "price_usd": 65.0,
+    "price_hkd": 507.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "psa10",
+    "price_usd": 180.5,
+    "price_hkd": 1407.9,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "raw",
+    "price_usd": 152.29,
+    "price_hkd": 1187.86,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "psa9",
+    "price_usd": 218.75,
+    "price_hkd": 1706.25,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "psa10",
+    "price_usd": 807.47,
+    "price_hkd": 6298.27,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "raw",
+    "price_usd": 102.5,
+    "price_hkd": 799.5,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "psa9",
+    "price_usd": 120.0,
+    "price_hkd": 936.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "psa10",
+    "price_usd": 418.0,
+    "price_hkd": 3260.4,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "raw",
+    "price_usd": 166.28,
+    "price_hkd": 1296.98,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "psa9",
+    "price_usd": 248.42,
+    "price_hkd": 1937.68,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "psa10",
+    "price_usd": 1191.47,
+    "price_hkd": 9293.47,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "raw",
+    "price_usd": 123.96,
+    "price_hkd": 966.89,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "psa9",
+    "price_usd": 151.9,
+    "price_hkd": 1184.82,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "psa10",
+    "price_usd": 320.0,
+    "price_hkd": 2496.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "raw",
+    "price_usd": 16.48,
+    "price_hkd": 128.54,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "psa9",
+    "price_usd": 40.0,
+    "price_hkd": 312.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "psa10",
+    "price_usd": 364.44,
+    "price_hkd": 2842.63,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "raw",
+    "price_usd": 117.35,
+    "price_hkd": 915.33,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa9",
+    "price_usd": 555.88,
+    "price_hkd": 4335.86,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T20:40:50.205305+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa10",
+    "price_usd": 2657.18,
+    "price_hkd": 20726.0,
+    "source": "PriceCharting"
   }
 ]
