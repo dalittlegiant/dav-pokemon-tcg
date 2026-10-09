@@ -478,5 +478,29 @@
     "price_usd": 364.44,
     "price_hkd": 2842.63,
     "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T16:11:57.396578+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "raw",
+    "price_usd": 117.35,
+    "price_hkd": 915.33,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T16:11:57.396578+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa9",
+    "price_usd": 555.88,
+    "price_hkd": 4335.86,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T16:11:57.396578+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa10",
+    "price_usd": 2657.18,
+    "price_hkd": 20726.0,
+    "source": "PriceCharting"
   }
 ]
