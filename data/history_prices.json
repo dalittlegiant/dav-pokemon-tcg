@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "raw",
+    "price_usd": 335.51,
+    "price_hkd": 2616.98,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa9",
+    "price_usd": 364.76,
+    "price_hkd": 2845.13,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa10",
+    "price_usd": 1379.75,
+    "price_hkd": 10762.05,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "raw",
+    "price_usd": 330.0,
+    "price_hkd": 2574.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa9",
+    "price_usd": 376.3,
+    "price_hkd": 2935.14,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa10",
+    "price_usd": 525.9,
+    "price_hkd": 4102.02,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "raw",
+    "price_usd": 1867.28,
+    "price_hkd": 14564.78,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa9",
+    "price_usd": 2125.0,
+    "price_hkd": 16575.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa10",
+    "price_usd": 3858.69,
+    "price_hkd": 30097.78,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "raw",
+    "price_usd": 2063.15,
+    "price_hkd": 16092.57,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa9",
+    "price_usd": 2449.5,
+    "price_hkd": 19106.1,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:51:55.172634+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa10",
+    "price_usd": 4300.23,
+    "price_hkd": 33541.79,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:53:05.808681+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "raw",
+    "price_usd": 945.95,
+    "price_hkd": 7378.41,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:53:05.808681+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa9",
+    "price_usd": 899.3,
+    "price_hkd": 7014.54,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-09T13:53:05.808681+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa10",
+    "price_usd": 2504.52,
+    "price_hkd": 19535.26,
+    "source": "PriceCharting"
+  }
+]
