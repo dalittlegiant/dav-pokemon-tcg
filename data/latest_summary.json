@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:05:27.175760+00:00",
+  "generated_at": "2026-10-09T16:02:30.948148+00:00",
   "hkd_rate": 7.8,
   "analysis_model": "",
   "cards": [
@@ -16,19 +16,19 @@
           "price_usd": 335.51,
           "price_hkd": 2616.98,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa9": {
           "price_usd": 364.76,
           "price_hkd": 2845.13,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa10": {
           "price_usd": 1379.75,
           "price_hkd": 10762.05,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         }
       },
       "analysis": null
@@ -46,19 +46,19 @@
           "price_usd": 330.0,
           "price_hkd": 2574.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa9": {
           "price_usd": 376.3,
           "price_hkd": 2935.14,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa10": {
           "price_usd": 525.9,
           "price_hkd": 4102.02,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         }
       },
       "analysis": null
@@ -76,19 +76,19 @@
           "price_usd": 945.95,
           "price_hkd": 7378.41,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa9": {
           "price_usd": 899.3,
           "price_hkd": 7014.54,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa10": {
           "price_usd": 2504.52,
           "price_hkd": 19535.26,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         }
       },
       "analysis": null
@@ -106,19 +106,19 @@
           "price_usd": 1867.28,
           "price_hkd": 14564.78,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa9": {
           "price_usd": 2125.0,
           "price_hkd": 16575.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa10": {
           "price_usd": 3858.69,
           "price_hkd": 30097.78,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         }
       },
       "analysis": null
@@ -136,19 +136,289 @@
           "price_usd": 2063.15,
           "price_hkd": 16092.57,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa9": {
           "price_usd": 2449.5,
           "price_hkd": 19106.1,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         },
         "psa10": {
           "price_usd": 4300.23,
           "price_hkd": 33541.79,
           "source": "PriceCharting",
-          "timestamp": "2026-10-09T14:05:15.498062+00:00"
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+      "card_name": "Psyduck & Slowpoke GX Alt Art",
+      "set_name": "Unified Minds",
+      "set_number": "218/236",
+      "language": "EN",
+      "variant": "Alternate Art",
+      "image_url": "https://images.pokemontcg.io/sm11/218_hires.png",
+      "grades": {
+        "raw": {
+          "price_usd": 304.37,
+          "price_hkd": 2374.09,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 537.5,
+          "price_hkd": 4192.5,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 2159.58,
+          "price_hkd": 16844.72,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+      "card_name": "Psyduck & Slowpoke GX Alt Art",
+      "set_name": "Miracle Twins",
+      "set_number": "096/094",
+      "language": "JP",
+      "variant": "Alternate Art",
+      "image_url": "https://assets.tcgdex.net/ja/SM/SM11/096/high.png",
+      "grades": {
+        "raw": {
+          "price_usd": 278.81,
+          "price_hkd": 2174.72,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 355.0,
+          "price_hkd": 2769.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 1114.89,
+          "price_hkd": 8696.14,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "slowpoke-psyduck-gx-35-en",
+      "card_name": "Slowpoke & Psyduck GX",
+      "set_name": "Unified Minds",
+      "set_number": "35/236",
+      "language": "EN",
+      "variant": "Regular Art",
+      "image_url": "https://images.pokemontcg.io/sm11/35_hires.png",
+      "grades": {
+        "raw": {
+          "price_usd": 121.39,
+          "price_hkd": 946.84,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 194.09,
+          "price_hkd": 1513.9,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 765.0,
+          "price_hkd": 5967.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "slowpoke-psyduck-gx-11-jp",
+      "card_name": "Slowpoke & Psyduck GX",
+      "set_name": "Miracle Twins",
+      "set_number": "011/094",
+      "language": "JP",
+      "variant": "Regular Art",
+      "image_url": "https://assets.tcgdex.net/ja/SM/SM11/011/high.png",
+      "grades": {
+        "raw": {
+          "price_usd": 44.95,
+          "price_hkd": 350.61,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 65.0,
+          "price_hkd": 507.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 180.5,
+          "price_hkd": 1407.9,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+      "card_name": "Psyduck & Slowpoke GX Full Art",
+      "set_name": "Unified Minds",
+      "set_number": "217/236",
+      "language": "EN",
+      "variant": "Full Art",
+      "image_url": "https://images.pokemontcg.io/sm11/217_hires.png",
+      "grades": {
+        "raw": {
+          "price_usd": 152.29,
+          "price_hkd": 1187.86,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 218.75,
+          "price_hkd": 1706.25,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 807.47,
+          "price_hkd": 6298.27,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+      "card_name": "Psyduck & Slowpoke GX Full Art",
+      "set_name": "Miracle Twins",
+      "set_number": "095/094",
+      "language": "JP",
+      "variant": "Full Art",
+      "image_url": "https://assets.tcgdex.net/ja/SM/SM11/095/high.png",
+      "grades": {
+        "raw": {
+          "price_usd": 102.5,
+          "price_hkd": 799.5,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 120.0,
+          "price_hkd": 936.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 418.0,
+          "price_hkd": 3260.4,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+      "card_name": "Slowpoke & Psyduck GX Rainbow",
+      "set_name": "Unified Minds",
+      "set_number": "239/236",
+      "language": "EN",
+      "variant": "Rainbow Rare",
+      "image_url": "https://images.pokemontcg.io/sm11/239_hires.png",
+      "grades": {
+        "raw": {
+          "price_usd": 166.28,
+          "price_hkd": 1296.98,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 248.42,
+          "price_hkd": 1937.68,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 1191.47,
+          "price_hkd": 9293.47,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+      "card_name": "Slowpoke & Psyduck GX Rainbow",
+      "set_name": "Miracle Twins",
+      "set_number": "107/094",
+      "language": "JP",
+      "variant": "Rainbow Rare",
+      "image_url": "https://assets.tcgdex.net/ja/SM/SM11/107/high.png",
+      "grades": {
+        "raw": {
+          "price_usd": 123.96,
+          "price_hkd": 966.89,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 151.9,
+          "price_hkd": 1184.82,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 320.0,
+          "price_hkd": 2496.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        }
+      },
+      "analysis": null
+    },
+    {
+      "card_id": "slowpoke-66-en",
+      "card_name": "Slowpoke",
+      "set_name": "Undaunted",
+      "set_number": "66/90",
+      "language": "EN",
+      "variant": "Common",
+      "image_url": "https://images.pokemontcg.io/hgss3/66_hires.png",
+      "grades": {
+        "raw": {
+          "price_usd": 16.48,
+          "price_hkd": 128.54,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa9": {
+          "price_usd": 40.0,
+          "price_hkd": 312.0,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
+        },
+        "psa10": {
+          "price_usd": 364.44,
+          "price_hkd": 2842.63,
+          "source": "PriceCharting",
+          "timestamp": "2026-10-09T16:01:51.179407+00:00"
         }
       },
       "analysis": null
