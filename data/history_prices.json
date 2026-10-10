@@ -1966,5 +1966,365 @@
     "price_usd": 2657.18,
     "price_hkd": 20726.0,
     "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "charizard-ex-151-sar-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-alt-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "umbreon-vmax-hr-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-218-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-alt-art-96-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-35-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-11-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-217-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "psyduck-slowpoke-gx-full-art-95-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-239-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-psyduck-gx-rainbow-107-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-66-en",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "raw",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa9",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
+  },
+  {
+    "timestamp": "2026-10-10T23:20:53.680133+00:00",
+    "card_id": "slowpoke-28-lp-jp",
+    "grade": "psa10",
+    "price_usd": null,
+    "price_hkd": null,
+    "source": null
   }
 ]
