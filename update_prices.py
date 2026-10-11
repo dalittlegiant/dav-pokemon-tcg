@@ -272,10 +272,25 @@ def main():
 
     records, latest = collect_prices(chasing, hkd_rate)
 
+    # Total-failure guard: if every fetch failed (PriceCharting block,
+    # network outage, HTML change), do NOT clobber the dashboard snapshot
+    # or pollute history with nulls. Exit non-zero so the workflow
+    # visibly fails and GitHub can notify.
+    n_ok = sum(1 for r in records if r["price_usd"])
+    if n_ok == 0:
+        print("[error] all price fetches failed; keeping previous data "
+              "files untouched (dashboard unchanged).", file=sys.stderr)
+        sys.exit(1)
+
     # APPEND-ONLY with deduplication: skip a record when the exact same
     # card_id + grade + price was already logged within the last hour.
+    # Null prices carry no information, so they never touch history --
+    # trend charts only ever see real prices.
     appended, skipped = 0, 0
     for rec in records:
+        if rec["price_usd"] is None:
+            skipped += 1
+            continue
         if already_logged(history, rec["card_id"], rec["grade"], rec["price_usd"]):
             skipped += 1
             continue
@@ -309,7 +324,6 @@ def main():
         "cards": cards_out,
     })
 
-    n_ok = sum(1 for r in records if r["price_usd"])
     print(f"done: {n_ok}/{len(records)} prices fetched; "
           f"+{appended} appended, {skipped} dedup-skipped; "
           f"history now {len(history)} records.")

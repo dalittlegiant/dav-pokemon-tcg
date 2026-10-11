@@ -107,8 +107,15 @@ Manual runs are possible via `workflow_dispatch` (with an optional
   authorized API access exists.
 - **Deduplication:** a record is skipped when the exact same
   `card_id + grade + price_usd` was already logged within the last
-  **1 hour** (`DEDUP_WINDOW_HOURS`). `history_prices.json` is otherwise
-  append-only; `latest_summary.json` is overwritten each run.
+  **1 hour** (`DEDUP_WINDOW_HOURS`). Null prices are never appended —
+  `history_prices.json` stays null-free so trend charts only see real
+  prices. `history_prices.json` is otherwise append-only;
+  `latest_summary.json` is overwritten each run.
+- **Total-failure guard:** if a run fetches zero prices (PriceCharting
+  block, network outage, HTML change), the run exits non-zero *without*
+  touching either data file — the dashboard keeps the last good
+  snapshot. The workflow then shows a visible failure so GitHub can
+  notify, instead of silently serving an empty dashboard.
 - Plain runs preserve the previous `analysis` text per card (token
   conservation); `--with-analysis` refreshes it via OpenRouter.
 
@@ -239,4 +246,6 @@ Top-level `fx.usd_to_hkd` is the default FX rate (env `USD_TO_HKD` overrides).
   update the header-mapping in `update_prices.py`.
 - AI insights depend on `OPENROUTER_API_KEY` being set as a repo secret;
   without it, commentary goes stale (dashboard degrades gracefully).
-- No alerting on scrape failures beyond workflow logs.
+- A run that fetches zero prices exits non-zero and leaves data files
+  untouched (see failure guard in `update_prices.py`); partial failures
+  still log per-card warnings only.
