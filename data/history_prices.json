@@ -2686,5 +2686,53 @@
     "price_usd": 2657.18,
     "price_hkd": 20726.0,
     "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "raw",
+    "price_usd": 320.0,
+    "price_hkd": 2496.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa9",
+    "price_usd": 357.45,
+    "price_hkd": 2788.11,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "charizard-ex-151-sir-en",
+    "grade": "psa10",
+    "price_usd": 1400.0,
+    "price_hkd": 10920.0,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "raw",
+    "price_usd": 783.9,
+    "price_hkd": 6114.42,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa9",
+    "price_usd": 867.19,
+    "price_hkd": 6764.08,
+    "source": "PriceCharting"
+  },
+  {
+    "timestamp": "2026-10-12T18:18:58.555036+00:00",
+    "card_id": "pikachu-grey-felt-hat-085-en",
+    "grade": "psa10",
+    "price_usd": 2453.38,
+    "price_hkd": 19136.36,
+    "source": "PriceCharting"
   }
 ]
