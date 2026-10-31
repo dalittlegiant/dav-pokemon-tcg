@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:34:50.974218+00:00",
+  "generated_at": "2026-10-31T04:49:03.180139+00:00",
   "hkd_rate": 7.8,
   "analysis_model": "",
   "cards": [
@@ -13,22 +13,22 @@
       "image_url": "https://images.pokemontcg.io/sv3pt5/199_hires.png",
       "grades": {
         "raw": {
-          "price_usd": 281.5,
-          "price_hkd": 2195.7,
+          "price_usd": 298.74,
+          "price_hkd": 2330.17,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 352.5,
           "price_hkd": 2749.5,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
-          "price_usd": 1254.03,
-          "price_hkd": 9781.43,
+          "price_usd": 1265.0,
+          "price_hkd": 9867.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -46,19 +46,19 @@
           "price_usd": 319.99,
           "price_hkd": 2495.92,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 330.0,
           "price_hkd": 2574.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 518.06,
           "price_hkd": 4040.87,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -73,22 +73,22 @@
       "image_url": "https://images.pokemontcg.io/svp/85_hires.png",
       "grades": {
         "raw": {
-          "price_usd": 930.0,
-          "price_hkd": 7254.0,
+          "price_usd": 962.5,
+          "price_hkd": 7507.5,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 897.5,
           "price_hkd": 7000.5,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 2450.0,
           "price_hkd": 19110.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -103,22 +103,22 @@
       "image_url": "https://images.pokemontcg.io/swsh7/215_hires.png",
       "grades": {
         "raw": {
-          "price_usd": 1865.14,
-          "price_hkd": 14548.09,
+          "price_usd": 1772.72,
+          "price_hkd": 13827.22,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
-          "price_usd": 2050.0,
-          "price_hkd": 15990.0,
+          "price_usd": 2040.16,
+          "price_hkd": 15913.25,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 3550.0,
           "price_hkd": 27690.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -136,19 +136,19 @@
           "price_usd": 2050.0,
           "price_hkd": 15990.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 3568.14,
           "price_hkd": 27831.49,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 4087.33,
           "price_hkd": 31881.17,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -163,22 +163,22 @@
       "image_url": "https://images.pokemontcg.io/sm11/218_hires.png",
       "grades": {
         "raw": {
-          "price_usd": 357.92,
-          "price_hkd": 2791.78,
+          "price_usd": 342.32,
+          "price_hkd": 2670.1,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
-          "price_usd": 495.0,
-          "price_hkd": 3861.0,
+          "price_usd": 506.62,
+          "price_hkd": 3951.64,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
-          "price_usd": 2163.0,
-          "price_hkd": 16871.4,
+          "price_usd": 2200.0,
+          "price_hkd": 17160.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -196,19 +196,19 @@
           "price_usd": 254.81,
           "price_hkd": 1987.52,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 355.0,
           "price_hkd": 2769.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 1114.71,
           "price_hkd": 8694.74,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -226,19 +226,19 @@
           "price_usd": 109.75,
           "price_hkd": 856.05,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 204.75,
           "price_hkd": 1597.05,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 800.0,
           "price_hkd": 6240.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -253,22 +253,22 @@
       "image_url": "https://assets.tcgdex.net/ja/SM/SM11/011/high.png",
       "grades": {
         "raw": {
-          "price_usd": 45.0,
-          "price_hkd": 351.0,
+          "price_usd": 47.68,
+          "price_hkd": 371.9,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
-          "price_usd": 64.5,
-          "price_hkd": 503.1,
+          "price_usd": 66.49,
+          "price_hkd": 518.62,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 186.99,
           "price_hkd": 1458.52,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -286,19 +286,19 @@
           "price_usd": 143.39,
           "price_hkd": 1118.44,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 223.75,
           "price_hkd": 1745.25,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 862.5,
           "price_hkd": 6727.5,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -316,19 +316,19 @@
           "price_usd": 90.0,
           "price_hkd": 702.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 110.4,
           "price_hkd": 861.12,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 385.0,
           "price_hkd": 3003.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -346,19 +346,19 @@
           "price_usd": 182.2,
           "price_hkd": 1421.16,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 274.88,
           "price_hkd": 2144.06,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 1237.0,
           "price_hkd": 9648.6,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -376,19 +376,19 @@
           "price_usd": 130.0,
           "price_hkd": 1014.0,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 151.9,
           "price_hkd": 1184.82,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 408.13,
           "price_hkd": 3183.41,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -406,19 +406,19 @@
           "price_usd": 17.92,
           "price_hkd": 139.78,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 102.0,
           "price_hkd": 795.6,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 361.53,
           "price_hkd": 2819.93,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
@@ -436,19 +436,19 @@
           "price_usd": 133.45,
           "price_hkd": 1040.91,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa9": {
           "price_usd": 599.0,
           "price_hkd": 4672.2,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         },
         "psa10": {
           "price_usd": 2280.09,
           "price_hkd": 17784.7,
           "source": "PriceCharting",
-          "timestamp": "2026-10-30T20:34:18.125046+00:00"
+          "timestamp": "2026-10-31T04:47:08.459828+00:00"
         }
       },
       "analysis": null
